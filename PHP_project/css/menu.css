@@ -1,0 +1,44 @@
+
+body{background-color:#B0E0E6;
+}
+h1{ color: #FF4500; font-family: 'Merriweather', serif; font-size: 40px; font-weight: 300; line-height: 40px; margin: 0 30px 40px; text-align: center; text-shadow: #2a8d7b -1px -1px; }
+
+.btn-group button {
+margin: auto;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: 15px solid #B0E0E6 ;
+
+}
+
+.btn-group:active {
+  transform: scale(0.95);
+}
+
+.btn-group button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+}
+
+
+
